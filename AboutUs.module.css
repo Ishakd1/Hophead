@@ -1,0 +1,573 @@
+.imageIcon,
+.rectangle {
+  position: absolute;
+  display: none;
+}
+.rectangle {
+  top: 0;
+  left: 0;
+  background: linear-gradient(90deg, #6c78ed, #ff4ff3);
+  width: 1336px;
+  height: 77px;
+}
+.imageIcon {
+  top: 17px;
+  left: 85px;
+  width: 45px;
+  height: 42px;
+  object-fit: cover;
+}
+.button,
+.button1,
+.button2,
+.button3 {
+  text-decoration: none;
+  position: absolute;
+  top: 28px;
+  font-weight: 800;
+  color: inherit;
+  display: none;
+  align-items: center;
+  height: 21px;
+}
+.button {
+  left: 569px;
+  width: 98px;
+  min-width: 98px;
+  cursor: pointer;
+}
+.button1,
+.button2,
+.button3 {
+  left: 1157px;
+  width: 114px;
+  min-width: 114px;
+}
+.button2,
+.button3 {
+  left: 1033px;
+  width: 90px;
+  min-width: 90px;
+}
+.button3 {
+  left: 896px;
+  width: 103px;
+  min-width: 103px;
+}
+.button4 {
+  left: 701px;
+  width: 161px;
+}
+.button4,
+.button5,
+.text {
+  text-decoration: none;
+  position: absolute;
+  top: 28px;
+  font-weight: 800;
+  color: inherit;
+  display: none;
+  align-items: center;
+  height: 21px;
+}
+.button5 {
+  left: 479px;
+  width: 56px;
+  min-width: 56px;
+  cursor: pointer;
+}
+.text {
+  left: 141px;
+  font-size: 16.7px;
+  width: 115px;
+  min-width: 115px;
+}
+.about,
+.us {
+  margin: 0;
+}
+.heroTitleTxtContainer {
+  width: 100%;
+}
+.heroSubtitle,
+.heroTitle {
+  margin: 0;
+  position: absolute;
+  left: 85px;
+  display: flex;
+  align-items: center;
+}
+.heroTitle {
+  top: 162px;
+  font-size: 145px;
+  letter-spacing: 0.09em;
+  font-weight: 400;
+  font-family: "Alumni Sans Inline One";
+  background: linear-gradient(180deg, #6c78ed, #ff4ff3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 743px;
+  height: 310px;
+}
+.heroSubtitle {
+  top: 470px;
+  font-size: 25px;
+  font-weight: 800;
+  font-family: inherit;
+  color: #281549;
+  width: 558px;
+  height: 63px;
+}
+.fash1Icon {
+  position: absolute;
+  top: 138px;
+  left: 619px;
+  width: 647px;
+  height: 670px;
+  object-fit: contain;
+}
+.contentBlock {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(90deg, #6c78ed, #ff4ff3);
+  width: 1336px;
+  height: 77px;
+}
+.imageIcon1 {
+  position: absolute;
+  top: 17px;
+  left: 85px;
+  width: 45px;
+  height: 42px;
+  object-fit: cover;
+}
+.button6 {
+  text-decoration: none;
+  position: absolute;
+  top: 28px;
+  left: 1045px;
+  font-weight: 800;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  width: 90px;
+  height: 21px;
+  min-width: 90px;
+}
+.button7 {
+  left: 569px;
+  width: 98px;
+  min-width: 98px;
+  cursor: pointer;
+}
+.button7,
+.button8,
+.button9 {
+  text-decoration: none;
+  position: absolute;
+  top: 28px;
+  font-weight: 800;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  height: 21px;
+}
+.button8 {
+  left: 1157px;
+  width: 114px;
+  min-width: 114px;
+}
+.button9 {
+  left: 701px;
+  width: 161px;
+}
+.button10 {
+  left: 896px;
+  width: 103px;
+  min-width: 103px;
+}
+.button10,
+.button11,
+.caption {
+  text-decoration: none;
+  position: absolute;
+  top: 28px;
+  font-weight: 800;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  height: 21px;
+}
+.button11 {
+  left: 479px;
+  width: 56px;
+  min-width: 56px;
+  cursor: pointer;
+}
+.caption {
+  left: 141px;
+  font-size: 16.7px;
+  width: 115px;
+  min-width: 115px;
+}
+.fash1Icon1 {
+  position: absolute;
+  top: 138px;
+  left: 619px;
+  width: 647px;
+  height: 670px;
+  object-fit: cover;
+}
+.missionStatement {
+  margin: 0;
+  position: absolute;
+  top: 854px;
+  left: 104px;
+  font-size: 100px;
+  font-weight: 400;
+  font-family: "Alumni Sans Inline One";
+  color: #6c78ed;
+  display: flex;
+  align-items: center;
+  width: 455px;
+  height: 120px;
+}
+.fa1Icon {
+  position: absolute;
+  top: 1102px;
+  left: 1174px;
+  width: 225.9px;
+  height: 445.1px;
+  object-fit: contain;
+}
+.theNameHophead {
+  top: 1020px;
+  left: 113px;
+  color: #281549;
+  height: 148px;
+}
+.alongSideBeing,
+.itsTimeWe,
+.theNameHophead,
+.thereAreMany {
+  margin: 0;
+  position: absolute;
+  font-size: 32px;
+  font-family: Inika;
+  text-align: justify;
+  display: flex;
+  align-items: center;
+  width: 1110px;
+}
+.itsTimeWe {
+  top: 2096px;
+  left: 113px;
+  font-weight: 400;
+  height: 42px;
+}
+.alongSideBeing,
+.thereAreMany {
+  top: 1895px;
+  left: 109px;
+  color: #281549;
+  height: 124px;
+}
+.thereAreMany {
+  top: 1257px;
+  left: 113px;
+  height: 579px;
+}
+.f1Icon,
+.fas1Icon {
+  position: absolute;
+  top: 1858px;
+  left: -61px;
+  width: 238.6px;
+  height: 377.1px;
+  object-fit: contain;
+}
+.f1Icon {
+  top: 1094px;
+  left: -10px;
+  width: 114px;
+  height: 279px;
+}
+.imageBlockIcon,
+.imageIcon2 {
+  position: absolute;
+  top: 2389px;
+  left: 0;
+  width: 828px;
+  height: 773px;
+  object-fit: cover;
+}
+.imageIcon2 {
+  top: 2466px;
+  left: 85px;
+  width: 45px;
+  height: 42px;
+}
+.leftColumn,
+.text1,
+.text2 {
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+.text1 {
+  margin: 0;
+  top: 2656px;
+  left: 85px;
+  font-size: 100px;
+  letter-spacing: 0.02em;
+  line-height: 79px;
+  font-weight: 400;
+  font-family: "Alumni Sans Inline One";
+  width: 527px;
+  height: 79px;
+}
+.leftColumn,
+.text2 {
+  font-weight: 800;
+}
+.leftColumn {
+  margin: 0;
+  top: 2498px;
+  left: 912px;
+  font-size: 25px;
+  font-family: inherit;
+  color: #ff4ff3;
+  width: 339px;
+  height: 63px;
+}
+.text2 {
+  top: 2477px;
+  left: 141px;
+  font-size: 16.7px;
+  width: 115px;
+  height: 43px;
+  min-width: 115px;
+}
+.text3 {
+  top: 2554px;
+  font-size: 100px;
+  letter-spacing: 0.02em;
+  line-height: 75px;
+  font-weight: 400;
+  font-family: "Alumni Sans Inline One";
+  width: 527px;
+  height: 75px;
+}
+.text3,
+.text4,
+.text5 {
+  margin: 0;
+  position: absolute;
+  left: 85px;
+  display: flex;
+  align-items: center;
+}
+.text4 {
+  top: 2762px;
+  font-size: 100px;
+  letter-spacing: 0.02em;
+  font-weight: 400;
+  font-family: "Alumni Sans Inline One";
+  width: 527px;
+  height: 120px;
+}
+.text5 {
+  top: 2888px;
+  font-size: 25px;
+  font-weight: 800;
+  font-family: inherit;
+  width: 558px;
+  height: 63px;
+}
+.rightColumn {
+  top: 2561px;
+  font-size: 26px;
+  font-weight: 700;
+  font-family: Inika;
+  color: #281549;
+  width: 190px;
+  height: 34px;
+}
+.columnHeading,
+.rightColumn,
+.text6,
+.text7 {
+  position: absolute;
+  left: 912px;
+  display: flex;
+  align-items: center;
+}
+.text6 {
+  top: 2692px;
+  font-size: 26px;
+  font-weight: 700;
+  font-family: Inika;
+  color: #281549;
+  width: 288px;
+  height: 34px;
+  white-space: nowrap;
+}
+.columnHeading,
+.text7 {
+  margin: 0;
+  top: 2629px;
+  font-size: 25px;
+  font-weight: 800;
+  font-family: inherit;
+  color: #ff4ff3;
+  width: 339px;
+  height: 63px;
+}
+.columnHeading {
+  top: 2762.17px;
+  height: 60px;
+}
+.ellipse {
+  position: absolute;
+  top: 2816px;
+  left: 990px;
+  border-radius: 50%;
+  background-color: #281549;
+  width: 27.2px;
+  height: 25px;
+}
+.imageIcon3 {
+  position: absolute;
+  height: 0.63%;
+  width: 1.62%;
+  top: 89.14%;
+  right: 24.07%;
+  bottom: 10.23%;
+  left: 80.3%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.ellipse1 {
+  position: absolute;
+  top: 2816px;
+  left: 951px;
+  border-radius: 50%;
+  background-color: #281549;
+  width: 25px;
+  height: 25px;
+}
+.imageIcon4 {
+  position: absolute;
+  height: 0.55%;
+  width: 1.5%;
+  top: 89.18%;
+  right: 27.13%;
+  bottom: 10.27%;
+  left: 77.17%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.ellipse2 {
+  position: absolute;
+  top: 2816px;
+  left: 912px;
+  border-radius: 50%;
+  background-color: #281549;
+  width: 25px;
+  height: 25px;
+}
+.imageIcon5 {
+  position: absolute;
+  height: 0.79%;
+  width: 1.87%;
+  top: 89.06%;
+  right: 29.87%;
+  bottom: 10.15%;
+  left: 73.78%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.aboutUs {
+  width: 100%;
+  height: 3162px;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: 14px;
+  color: #fff;
+  font-family: "Inknut Antiqua";
+}
+@media screen and (max-width: 767px) {
+  .heroTitle {
+    font-size: 58px;
+  }
+  .missionStatement {
+    font-size: 50px;
+  }
+  .alongSideBeing,
+  .itsTimeWe,
+  .theNameHophead,
+  .thereAreMany {
+    font-size: 26px;
+  }
+  .text1 {
+    font-size: 50px;
+    line-height: 47px;
+  }
+  .text3 {
+    line-height: 45px;
+  }
+  .text3,
+  .text4 {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .heroTitle {
+    font-size: 36px;
+  }
+  .heroSubtitle {
+    font-size: 20px;
+  }
+  .missionStatement {
+    font-size: 30px;
+  }
+  .alongSideBeing,
+  .itsTimeWe,
+  .theNameHophead,
+  .thereAreMany {
+    font-size: 19px;
+  }
+  .text1 {
+    font-size: 30px;
+    line-height: 32px;
+  }
+  .leftColumn {
+    font-size: 20px;
+  }
+  .text3 {
+    line-height: 30px;
+  }
+  .text3,
+  .text4 {
+    font-size: 30px;
+  }
+  .text5 {
+    font-size: 20px;
+  }
+  .rightColumn,
+  .text6 {
+    font-size: 21px;
+  }
+  .columnHeading,
+  .text7 {
+    font-size: 20px;
+  }
+}

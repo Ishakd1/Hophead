@@ -1,0 +1,165 @@
+.address {
+  align-self: stretch;
+  position: relative;
+  font-weight: 800;
+}
+.phoneNumber {
+  width: 190px;
+  position: relative;
+  font-size: 26px;
+  display: flex;
+  font-family: Inika;
+  color: #281549;
+  align-items: center;
+  z-index: 1;
+}
+.addressParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.text,
+.text1 {
+  position: relative;
+}
+.text {
+  align-self: stretch;
+  font-weight: 800;
+  z-index: 1;
+}
+.text1 {
+  font-size: 26px;
+  font-family: Inika;
+  color: #281549;
+  white-space: nowrap;
+}
+.socialTitle,
+.textParent {
+  align-self: stretch;
+  display: flex;
+}
+.textParent {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.socialTitle {
+  height: 60px;
+  position: relative;
+  font-weight: 800;
+  align-items: center;
+  flex-shrink: 0;
+}
+.imageIcon,
+.socialIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.socialIcon {
+  border-radius: 50%;
+  background-color: #281549;
+  z-index: 1;
+}
+.imageIcon {
+  z-index: 2;
+}
+.socialIconParent {
+  height: 25px;
+  width: 25px;
+  position: relative;
+}
+.ellipse {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: #281549;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.imageIcon1 {
+  position: absolute;
+  top: 3.8px;
+  left: 2.5px;
+  width: 20px;
+  height: 17.5px;
+  z-index: 2;
+}
+.ellipseParent {
+  height: 25px;
+  width: 25px;
+  position: relative;
+}
+.ellipse1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: #281549;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.imageIcon2 {
+  position: absolute;
+  top: 2.5px;
+  left: 2.7px;
+  width: 21.7px;
+  height: 20px;
+  z-index: 2;
+}
+.ellipseGroup {
+  height: 25px;
+  width: 27.2px;
+  position: relative;
+}
+.frameGroup,
+.frameParent,
+.socialTitleParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameGroup {
+  flex-direction: row;
+  gap: 14px;
+  margin-top: -6.2px;
+}
+.frameParent,
+.socialTitleParent {
+  align-self: stretch;
+  flex-direction: column;
+}
+.frameParent {
+  gap: 35.1px;
+  text-align: left;
+  font-size: 25px;
+  color: #ff4ff3;
+  font-family: "Inknut Antiqua";
+}
+@media screen and (max-width: 450px) {
+  .address {
+    font-size: 20px;
+  }
+  .phoneNumber {
+    font-size: 21px;
+  }
+  .text {
+    font-size: 20px;
+  }
+  .text1 {
+    font-size: 21px;
+  }
+  .socialTitle {
+    font-size: 20px;
+  }
+  .frameParent {
+    gap: 18px;
+  }
+}

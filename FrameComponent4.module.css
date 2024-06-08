@@ -1,0 +1,147 @@
+.rectangle {
+  height: 77px;
+  width: 1336px;
+  position: relative;
+  background: linear-gradient(90deg, #6c78ed, #ff4ff3);
+  display: none;
+  max-width: 100%;
+}
+.imageIcon {
+  height: 42px;
+  width: 45px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.topDescription {
+  text-decoration: none;
+  position: relative;
+  font-weight: 800;
+  color: inherit;
+  display: inline-block;
+  min-width: 115px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.imageParent,
+.topDescriptionWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.topDescriptionWrapper {
+  flex-direction: column;
+  padding: 11px 0 0;
+}
+.imageParent {
+  flex-direction: row;
+  gap: 11px;
+}
+.button,
+.button1 {
+  display: inline-block;
+}
+.button {
+  text-decoration: none;
+  position: relative;
+  font-weight: 800;
+  color: inherit;
+  min-width: 56px;
+  cursor: pointer;
+  z-index: 1;
+}
+.button1 {
+  min-width: 98px;
+}
+.button1,
+.button2,
+.button3,
+.button4,
+.button5 {
+  text-decoration: none;
+  position: relative;
+  font-weight: 800;
+  color: inherit;
+  z-index: 1;
+}
+.button3,
+.button4,
+.button5 {
+  display: inline-block;
+}
+.button3 {
+  min-width: 103px;
+}
+.button4,
+.button5 {
+  white-space: nowrap;
+}
+.button4 {
+  min-width: 90px;
+  cursor: pointer;
+}
+.button5 {
+  min-width: 114px;
+}
+.buttonParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 34px;
+}
+.frameWrapper,
+.rectangleParent {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameWrapper {
+  width: 792px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 6px;
+  font-size: 14px;
+}
+.rectangleParent {
+  align-self: stretch;
+  background: linear-gradient(90deg, #6c78ed, #ff4ff3);
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 17px 65px 6px 85px;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  gap: 20px;
+  text-align: left;
+  font-size: 16.7px;
+  color: #fff;
+  font-family: "Inknut Antiqua";
+}
+@media screen and (max-width: 1050px) {
+  .buttonParent {
+    display: none;
+  }
+  .frameWrapper {
+    width: 0;
+  }
+}
+@media screen and (max-width: 750px) {
+  .rectangleParent {
+    padding-left: 42px;
+    padding-right: 32px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .buttonParent {
+    gap: 17px;
+  }
+  .rectangleParent {
+    padding-left: 20px;
+    box-sizing: border-box;
+  }
+}
